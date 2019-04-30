@@ -1,0 +1,27 @@
+.pd-parallax
+{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  margin: 0;
+  padding: 0; 
+}
+
+.pd-parallax h1
+{
+  background-color: #e4830ae0;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.pd-parallax .pd-title
+{
+  padding-top: 150px;
+  width: 400px;
+  margin: 0 auto;
+}
