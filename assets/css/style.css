@@ -11,6 +11,18 @@
   padding: 0; 
 }
 
+.pd-parallax-init
+{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  margin: 0;
+  padding: 0; 
+}
+
 .pd-parallax h1
 {
   background-color: #e4830ae0;
@@ -24,5 +36,10 @@
   padding-top: 150px;
   width: 400px;
   margin: 0 auto;
+}
+
+.logo-parallax
+{
+  width: 400px;
 }
 
