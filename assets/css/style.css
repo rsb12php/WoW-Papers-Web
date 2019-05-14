@@ -1,7 +1,7 @@
 .pd-parallax
 {
   position: relative;
-  opacity: 0.80;
+  opacity: 0.70;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,4 +54,87 @@
 ::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background: purple;
+}
+
+
+.message_home{
+  animation:type 4s 1 steps(25);
+  overflow: hidden;
+  white-space:nowrap;
+  width: 27ch;
+  color: white;
+  font-size: 24px;
+  background: orange;
+}
+
+@keyframes type{
+  0%{
+    width: 0ch;
+  }
+  100%{
+    width: 20ch;
+  }
+}
+
+.message_home_2{
+  animation:type 4s 1 steps(25);
+  overflow: hidden;
+  white-space:nowrap;
+  width: 27ch;
+  color: white;
+  background: purple;
+  font-size: 24px;
+}
+
+@keyframes type{
+  0%{
+    width: 0ch;
+  }
+  100%{
+    width: 20ch;
+  }
+}
+
+.message_home_3{
+  animation:type 4s 1 steps(25);
+  overflow: hidden;
+  white-space:nowrap;
+  width: 27ch;
+  color: white;
+  background: orange;
+  font-size: 24px;
+}
+
+@keyframes type{
+  0%{
+    width: 0ch;
+  }
+  100%{
+    width: 20ch;
+  }
+}
+
+.message_home_4{
+  animation:type 4s 1 steps(25);
+  overflow: hidden;
+  white-space:nowrap;
+  width: 27ch;
+  color: white;
+  background: purple;
+  font-size: 24px;
+}
+
+@keyframes type{
+  0%{
+    width: 0ch;
+  }
+  100%{
+    width: 20ch;
+  }
+}
+
+.categoria:hover {
+  background: purple;
+  color: white;
+  cursor: pointer;
 }
