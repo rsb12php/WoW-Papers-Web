@@ -6,7 +6,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 640px;
+  min-height: 2000px;
   margin: 0;
   padding: 0; 
 }
@@ -25,10 +25,10 @@
 
 .pd-parallax h1
 {
-  background-color: #e4830ae0;
   text-align: center;
   color: white;
   padding: 20px;
+  font-size: 4em;
 }
 
 .pd-parallax .pd-title
@@ -61,9 +61,7 @@
   animation:type 4s 1 steps(25);
   overflow: hidden;
   white-space:nowrap;
-  width: 27ch;
   color: white;
-  font-size: 24px;
   background: orange;
 }
 
@@ -80,10 +78,8 @@
   animation:type 4s 1 steps(25);
   overflow: hidden;
   white-space:nowrap;
-  width: 27ch;
   color: white;
   background: purple;
-  font-size: 24px;
 }
 
 @keyframes type{
@@ -99,10 +95,8 @@
   animation:type 4s 1 steps(25);
   overflow: hidden;
   white-space:nowrap;
-  width: 27ch;
   color: white;
   background: orange;
-  font-size: 24px;
 }
 
 @keyframes type{
@@ -118,10 +112,8 @@
   animation:type 4s 1 steps(25);
   overflow: hidden;
   white-space:nowrap;
-  width: 27ch;
   color: white;
   background: purple;
-  font-size: 24px;
 }
 
 @keyframes type{
