@@ -134,3 +134,15 @@ h1
 .cursor-pointer {
    cursor:pointer;
 }
+
+.baixe {
+  background: orange;
+  padding: 50px !important;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 3em;
+}
